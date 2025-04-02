@@ -3,7 +3,8 @@ import './estilos/Calculadora.css'
 function Calculadora() {
 
     return (
-        <div className='containerCalculadora'>
+        <div className='GeneralDiv'>
+            <div className='containerCalculadora'>
             <div>
                 <input type="text" id='resultado' readOnly />
             </div>
@@ -26,12 +27,13 @@ function Calculadora() {
                 <button className='operador'>*</button>
             </div>
             <div>
-                <button className='esnumero'>0</button>
-                <button id='igual'>=</button>
+                <button className='igual'>=</button>
+                <button id='esnumero'>0</button>
                 <button id='limpiar'>C</button>
                 <button className='operador'>/</button>
             </div>
             
+        </div>
         </div>
     )
 }

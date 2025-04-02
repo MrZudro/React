@@ -13,6 +13,7 @@ function NavBar() {
                 <Nav className="me-auto">
                     <Nav.Link href="/home">Inicio</Nav.Link>
                     <Nav.Link href="/calculadora">Calculadora</Nav.Link>
+                    <Nav.Link href="/youtube">ScrapYoutube</Nav.Link>
                     <Nav.Link href="/aboutme">Acerca de</Nav.Link>
                     <Nav.Link href="/contact">Contacto</Nav.Link>
                 </Nav>
