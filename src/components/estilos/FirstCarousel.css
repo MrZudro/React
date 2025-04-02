@@ -1,0 +1,18 @@
+.CustomCarousel{
+    height: 895px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    height: 100%; /* Asegura que el contenedor interno también tenga altura */
+}
+
+.carousel-item {
+    height: 100%;  /* Cada item debe tener el 100% de la altura del contenedor */
+}
+
+.carousel-item img {
+    object-fit: cover;  /* Mantiene la proporción y llena el contenedor, recortando si es necesario */
+    height: 100%;
+    width: 100%;
+}
