@@ -1,9 +1,11 @@
+import './components/estilos/App.css'
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/home';
 import Calculadora from './components/Calculadora';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
         <Route path="/calculadora" element={<Calculadora />}/>
       </Routes>
     </BrowserRouter>
+    <Footer />
 
     </>
   );

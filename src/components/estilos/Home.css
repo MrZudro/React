@@ -1,0 +1,27 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: minmax(150px, 20%) 1fr minmax(150px, 20%);
+    width: 100%;
+}
+
+  /* Opcional: estilos adicionales para el contenido */
+.contenedor > div:nth-child(1) {
+    background-color: #f0f0f0;
+}
+
+.contenedor > div:nth-child(2) {
+    background-color: #e0e0e0;
+}
+.columna-central article{
+    width: 100%;
+}
+
+.contenedor > div:nth-child(3) {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+      grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+    }
+}

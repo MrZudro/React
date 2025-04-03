@@ -1,0 +1,16 @@
+.cn-asideContent{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cn-asideContent div{
+    width: 100%;
+}
+
+.cn-asideContent div h1{
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-size: 2em;
+}
