@@ -8,15 +8,17 @@ function ArticleMain({title}) {
         <header>
             <h1>{title}</h1>
         </header>
-        <div className='cn-imagenProfile'>
-            <img src={Me} />
-        </div>
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Perferendis rem illo voluptatibus quibusdam est, ratione quod, 
-                velit ipsum voluptas fuga alias, nemo et quos porro. Sed, inventore. 
-                Mollitia, obcaecati alias.
-            </p>
+        <div className='cn-parrafoImage'>
+            <div className='cn-imagenProfile'>
+                <img src={Me} />
+            </div>
+            <div className='cn-parrafo'>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Perferendis rem illo voluptatibus quibusdam est, ratione quod, 
+                    velit ipsum voluptas fuga alias, nemo et quos porro. Sed, inventore. 
+                    Mollitia, obcaecati alias.
+                </p>
+            </div>
         </div>
         </> 
 
