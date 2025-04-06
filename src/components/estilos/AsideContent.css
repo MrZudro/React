@@ -1,16 +1,45 @@
 .cn-asideContent{
-    border: 1px solid black;
-    width: 100%;
+    font-family: 'Poppins';
+    width: 85%;
+    margin: 1em auto;
+    padding: 2em;
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    background-image: linear-gradient(-45deg, #03001e, #7303c0, #EC38BC)  ;
+    box-shadow: 15px 8px 10px 1px #7303c0;
+    border-radius: 30px;
+    color: white;
+    animation: pr-articleOnHomeAnimation both;
+    animation-timeline: view(70% 5%);
 }
+
+@keyframes cn-asideContentAnimation{
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
 
 .cn-asideContent div{
     width: 100%;
+    margin-bottom: 1.5em;
 }
 
 .cn-asideContent div h1{
     font-weight: 600;
     letter-spacing: -2px;
-    font-size: 2em;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+.contenido-esImagen img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
 }

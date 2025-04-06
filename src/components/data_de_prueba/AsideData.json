@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "title": "A quien seguir",
+        "content": [
+            {
+                "tipo": "FollowCard",
+                "nombreUsuario": "midudev",
+                "name": "Miguel Angel Duran",
+                "isFollowing": true
+            },
+            {
+                "tipo": "FollowCard",
+                "nombreUsuario": "LinkinPark",
+                "name": "Linkin Park",
+                "isFollowing": false
+            },
+            {
+                "tipo": "FollowCard",
+                "nombreUsuario": "BerakahMisionOficial",
+                "name": "Mision Berakah",
+                "isFollowing": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Texto de ejemplo",
+        "content": [
+            {
+                "tipo": "Parrafo",
+                "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptas eum ab nobis nesciunt, beatae maxime totam officia vero error voluptates cupiditate, perferendis sunt itaque placeat dignissimos molestias nostrum sed?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolore ipsam excepturi nihil ab minus omnis a adipisci, doloribus, modi tempore obcaecati nostrum? Exercitationem quaerat aut voluptate eveniet sint qui."
+            }
+        ]
+    }
+]

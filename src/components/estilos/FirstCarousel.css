@@ -4,7 +4,8 @@
 }
 
 .carousel-inner {
-    height: 100%; /* Asegura que el contenedor interno también tenga altura */
+    height: 100%;
+    border-radius: 30px; /* Asegura que el contenedor interno también tenga altura */
 }
 
 .carousel-item {

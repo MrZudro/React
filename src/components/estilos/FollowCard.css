@@ -1,0 +1,63 @@
+.fc-articleGeneral{
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    justify-content: space-between;
+    color: indigo;
+}
+
+.fc-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.fc-contentInfo{
+    color: white;
+    letter-spacing: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.fc-infoUserName{
+    opacity: .6;
+}
+
+.fc-imagenAvatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.fc-boton-notFollowing{
+    cursor: pointer;
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: .3s ease background-color;
+}
+
+.fc-boton-notFollowing:hover{
+    opacity: .8;
+}
+
+.fc-boton-isFollowing{
+    cursor: pointer;
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: 1px solid indigo;
+    transition: .3s ease background-color;
+}
+
+.fc-boton-isFollowing:hover{
+    background-color: rgb(80, 0, 0);
+    color: rgb(202, 3, 3);
+    border: 1px solid rgb(202, 3, 3);
+}

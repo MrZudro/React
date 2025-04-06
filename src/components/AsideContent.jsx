@@ -1,13 +1,19 @@
 import './estilos/AsideContent.css'
 
-function AsideContent() {
+export function AsideContent({title, content, typeContent}) {
+    let estiloSegunContenido = ''
+    if (typeContent === 'imagen'){
+        estiloSegunContenido = 'contenido-esImagen'
+    }
+
     return (
         <div className='cn-asideContent'>
             <div>
-                <h1>Titulo del Aside</h1>
+                <h1>{title}</h1>
+            </div>
+            <div className={`${estiloSegunContenido}`}>
+                {content}
             </div>
         </div>
     )
 }
-
-export default AsideContent
